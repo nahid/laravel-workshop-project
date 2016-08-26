@@ -1,0 +1,23 @@
+{
+    "name": "nahid/times",
+    "description": "its a dummy package",
+    "type": "library",
+    "keywords":["times", "datetimes"],
+    "require": {
+        "phpunit/phpunit": "^5.5"
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Nahid Bin Azhar",
+            "email": "nahid.dns@gmail.com"
+        }
+    ],
+    "autoload": {
+
+        "psr-4": {
+            "Nahid\\Times\\": "src/"
+        }
+    },
+    "minimum-stability": "dev"
+}
